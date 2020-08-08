@@ -1,6 +1,6 @@
 # Guide to CLI commands
 
-> *Note:* This documentation is based on `Kedro 0.16.2`, if you spot anything that is incorrect then please create an [issue](https://github.com/quantumblacklabs/kedro/issues) or pull request.
+> *Note:* This documentation is based on `Kedro 0.16.4`, if you spot anything that is incorrect then please create an [issue](https://github.com/quantumblacklabs/kedro/issues) or pull request.
 
 The `kedro` command line interface (CLI) helps with reproducibility in projects by allowing you to associate a set of commands and dependencies with a target and then execute them from the command line when inside a Kedro project directory. All project related CLI commands should be run from the project’s root directory.
 
@@ -105,10 +105,10 @@ This command shows a list of all pipelines in your project.
 
 ### `kedro pipeline create`
 
-This command creates a new modular pipeline in your project. More details in [this section](../05_nodes_and_pipelines/02_pipelines.md#how-do-i-create-modular-pipelines).
+This command creates a new modular pipeline in your project. More details in [this section](../06_nodes_and_pipelines/02_pipelines.md#how-do-i-create-modular-pipelines).
 
 ### `kedro pipeline package <pipeline_name>`
-This command packages a modular pipeline into a [wheel file](https://pythonwheels.com/). More details in [this section](../05_nodes_and_pipelines/02_pipelines.md#how-do-i-package-a-modular-pipeline).
+This command packages a modular pipeline into a [wheel file](https://pythonwheels.com/). More details in [this section](../06_nodes_and_pipelines/02_pipelines.md#how-do-i-package-a-modular-pipeline).
 
 ## Using Python
 You can also invoke the Kedro CLI as a Python module:
